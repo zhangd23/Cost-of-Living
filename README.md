@@ -11,8 +11,11 @@ Goals:
 
 In Progress:
 1. Rent Calculator - scrape data from online databases
+
    #TODO: Visualization
+
    #TODO: 
 
 To Do:
+
 2. Cost of Living Calculator - Still thinking how to implement
