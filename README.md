@@ -15,4 +15,4 @@ In Progress:
    #TODO: 
 
 To Do:
-2. Cost of Living Calculator - 
+2. Cost of Living Calculator - Still thinking how to implement
