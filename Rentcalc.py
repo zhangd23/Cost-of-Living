@@ -75,9 +75,9 @@ def check_input():
 def scrape(zipcodelist):
     for i in range (0, len(zipcodelist)):
         ziplookup(zipcodelist[i])   
-        print('Finished gathering rent information in area code '+' '.join(zipcodelist))
+        print('Finished gathering rent information in area code ' + zipcodelist[i])
     
 f = csv.writer(open('Rent Information.csv', 'w', newline=''))
-f.writerow(['Area Code','Beds', 'Price', 'Price per tenant'])
+f.writerow(['Zip_code','Beds', 'Price', 'Price_per_tenant'])
 
 scrape(check_input())
